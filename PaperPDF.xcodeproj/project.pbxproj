@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C10000000000000000000001 /* PaperPDFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* PaperPDFApp.swift */; };
+		C10000000000000000000002 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* AppCoordinator.swift */; };
+		C10000000000000000000003 /* DocumentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* DocumentItem.swift */; };
+		C10000000000000000000004 /* ToolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* ToolType.swift */; };
+		C10000000000000000000005 /* PDFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* PDFService.swift */; };
+		C10000000000000000000006 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* StorageService.swift */; };
+		C10000000000000000000007 /* ScanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* ScanService.swift */; };
+		C10000000000000000000008 /* PurchaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* PurchaseService.swift */; };
+		C10000000000000000000009 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* AppViewModel.swift */; };
+		C1000000000000000000000A /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* RootTabView.swift */; };
+		C1000000000000000000000B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* HomeView.swift */; };
+		C1000000000000000000000C /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* ToolsView.swift */; };
+		C1000000000000000000000D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* SettingsView.swift */; };
+		C1000000000000000000000E /* PDFPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* PDFPreviewView.swift */; };
+		C1000000000000000000000F /* PDFKitRepresentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* PDFKitRepresentedView.swift */; };
+		C10000000000000000000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* Assets.xcassets */; };
+		C10000000000000000000011 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* PDFKit.framework */; };
+		C10000000000000000000012 /* VisionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* VisionKit.framework */; };
+		C10000000000000000000013 /* AdMobService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* AdMobService.swift */; };
+		C10000000000000000000014 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = F10000000000000000000001 /* GoogleMobileAds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* PaperPDFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperPDFApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* DocumentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentItem.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* ToolType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolType.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* PDFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFService.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* ScanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanService.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* PurchaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseService.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* PDFPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPreviewView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* PDFKitRepresentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitRepresentedView.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000012 /* Paper PDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paper PDF.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000013 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		B10000000000000000000014 /* VisionKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisionKit.framework; path = System/Library/Frameworks/VisionKit.framework; sourceTree = SDKROOT; };
+		B10000000000000000000015 /* AdMobService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1A1A1A1A1A1A1A1A1A1A109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10000000000000000000011 /* PDFKit.framework in Frameworks */,
+				C10000000000000000000012 /* VisionKit.framework in Frameworks */,
+				C10000000000000000000014 /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1A1A1A1A1A1A1A1A1A1A102 = {
+			isa = PBXGroup;
+			children = (
+				A1A1A1A1A1A1A1A1A1A1A127 /* Paper PDF */,
+				A1A1A1A1A1A1A1A1A1A1A104 /* Frameworks */,
+				A1A1A1A1A1A1A1A1A1A1A103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1A1A1A1A1A1A1A1A1A1A103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000012 /* Paper PDF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1A1A1A1A1A1A1A1A1A1A104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000013 /* PDFKit.framework */,
+				B10000000000000000000014 /* VisionKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1A1A1A1A1A1A1A1A1A1A120 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* PaperPDFApp.swift */,
+				B10000000000000000000002 /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A1A1A1A1A1A1A1A1A1A1A121 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000003 /* DocumentItem.swift */,
+				B10000000000000000000004 /* ToolType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1A1A1A1A1A1A1A1A1A1A122 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000005 /* PDFService.swift */,
+				B10000000000000000000006 /* StorageService.swift */,
+				B10000000000000000000007 /* ScanService.swift */,
+				B10000000000000000000008 /* PurchaseService.swift */,
+				B10000000000000000000015 /* AdMobService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1A1A1A1A1A1A1A1A1A1A123 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000009 /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A1A1A1A1A1A1A1A1A1A1A124 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000A /* RootTabView.swift */,
+				B1000000000000000000000B /* HomeView.swift */,
+				B1000000000000000000000C /* ToolsView.swift */,
+				B1000000000000000000000D /* SettingsView.swift */,
+				B1000000000000000000000E /* PDFPreviewView.swift */,
+				A1A1A1A1A1A1A1A1A1A1A125 /* UIKit */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1A1A1A1A1A1A1A1A1A1A125 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000F /* PDFKitRepresentedView.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A1A1A1A1A1A1A1A1A1A1A126 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000010 /* Assets.xcassets */,
+				B10000000000000000000011 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1A1A1A1A1A1A1A1A1A1A127 /* Paper PDF */ = {
+			isa = PBXGroup;
+			children = (
+				A1A1A1A1A1A1A1A1A1A1A120 /* App */,
+				A1A1A1A1A1A1A1A1A1A1A121 /* Models */,
+				A1A1A1A1A1A1A1A1A1A1A122 /* Services */,
+				A1A1A1A1A1A1A1A1A1A1A123 /* ViewModels */,
+				A1A1A1A1A1A1A1A1A1A1A124 /* Views */,
+				A1A1A1A1A1A1A1A1A1A1A126 /* Resources */,
+			);
+			name = "Paper PDF";
+			path = PaperPDF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1A1A1A1A1A1A1A1A1A1A105 /* Paper PDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A1A1A1A1A1A1A1A1A1A106 /* Build configuration list for PBXNativeTarget "Paper PDF" */;
+			buildPhases = (
+				A1A1A1A1A1A1A1A1A1A1A108 /* Sources */,
+				A1A1A1A1A1A1A1A1A1A1A109 /* Frameworks */,
+				A1A1A1A1A1A1A1A1A1A1A10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Paper PDF";
+			packageProductDependencies = (
+				F10000000000000000000001 /* GoogleMobileAds */,
+			);
+			productName = "Paper PDF";
+			productReference = B10000000000000000000012 /* Paper PDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A1A1A1A1A1A1A1A1A1A101 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					A1A1A1A1A1A1A1A1A1A1A105 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = A1A1A1A1A1A1A1A1A1A1A107 /* Build configuration list for PBXProject "PaperPDF" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1A1A1A1A1A1A1A1A1A1A102;
+			packageReferences = (
+				F10000000000000000000002 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = A1A1A1A1A1A1A1A1A1A1A103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1A1A1A1A1A1A1A1A1A1A105 /* Paper PDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1A1A1A1A1A1A1A1A1A1A10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10000000000000000000010 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1A1A1A1A1A1A1A1A1A1A108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10000000000000000000001 /* PaperPDFApp.swift in Sources */,
+				C10000000000000000000002 /* AppCoordinator.swift in Sources */,
+				C10000000000000000000003 /* DocumentItem.swift in Sources */,
+				C10000000000000000000004 /* ToolType.swift in Sources */,
+				C10000000000000000000005 /* PDFService.swift in Sources */,
+				C10000000000000000000006 /* StorageService.swift in Sources */,
+				C10000000000000000000007 /* ScanService.swift in Sources */,
+				C10000000000000000000008 /* PurchaseService.swift in Sources */,
+				C10000000000000000000013 /* AdMobService.swift in Sources */,
+				C10000000000000000000009 /* AppViewModel.swift in Sources */,
+				C1000000000000000000000A /* RootTabView.swift in Sources */,
+				C1000000000000000000000B /* HomeView.swift in Sources */,
+				C1000000000000000000000C /* ToolsView.swift in Sources */,
+				C1000000000000000000000D /* SettingsView.swift in Sources */,
+				C1000000000000000000000E /* PDFPreviewView.swift in Sources */,
+				C1000000000000000000000F /* PDFKitRepresentedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WT3S9U369B;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WT3S9U369B;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PaperPDF/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Paper PDF";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cortex.paperpdf;
+				PRODUCT_NAME = "Paper PDF";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PaperPDF/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Paper PDF";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cortex.paperpdf;
+				PRODUCT_NAME = "Paper PDF";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1A1A1A1A1A1A1A1A1A1A106 /* Build configuration list for PBXNativeTarget "Paper PDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10000000000000000000001 /* Debug */,
+				E10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A1A1A1A1A1A1A1A1A1A107 /* Build configuration list for PBXProject "PaperPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10000000000000000000001 /* Debug */,
+				D10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F10000000000000000000002 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F10000000000000000000001 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F10000000000000000000002 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A1A1A1A1A1A1A1A1A1A1A101 /* Project object */;
+}
